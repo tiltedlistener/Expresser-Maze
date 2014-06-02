@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font-size:100%;
+	font-family: Helvetica, sans-serif;	
+}
+
+body {
+	border:none;
+	margin:0;
+	min-height: 1500px;
+	padding:0;	
+	position:relative;
+}
+
+h1, h2, h3, h4 {
+	font-weight:100;	
+}
+
+h1 {
+	margin:0px;
+}
+
+#wrapper {
+	position:relative;
+	margin:100px auto;
+	width:1024px;	
+	z-index:99;
+}
+
+canvas {
+	background:white;	
+}
+
+#text-final {
+	font-size:30px;
+	font-weight:100;
+	margin-top:100px;
+	text-align: center;
+}
+
+#text-final span {
+	margin:0 5px;
+}
+
+textarea {
+	font-size:16px;
+	height:200px;
+	resize:none;
+	width:80%;	
+}
+
+.inputer {
+	color:#777;
+	cursor:pointer;
+	display:block;
+	float:left;
+	font-size:24px;
+	font-weight:100;
+	margin:40px 20px;
+	width:auto;
+	text-align: center;
+}
+
+#button {
+	clear:left;
+	color:red;
+	margin-left:0px;
+}
+
+#tools-wrapper {
+	position:absolute;
+	top:-128px;
+	left:0px;
+}
+
+.tool {
+	float:left;
+	margin-right:20px;
+}
+
+#share-button,
+#return {
+	color:#777;
+	cursor:pointer;
+	font-size:18px;
+	margin-top:0px;
+	padding-left:5px;
+}
+
+#share {
+	margin-top:2px;
+}
+
+#info-wrapper {
+	clear:both;
+	position:relative;
+}
+
+.info {
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:80%;
+}
+
+.info-content {
+	line-height:2em;
+	margin-bottom:10px;
+}
+
+.info-close {
+	color:#777;
+	cursor:pointer;
+}
+
+.example-item {
+	font-weight:100;
+	margin-bottom:25px;
+}
+
+.example-text {
+	margin-bottom:5px;
+}
+
+.example-use {
+	color:#00aeef;
+	cursor:pointer;
+}
+
+#lightbox {
+	background:rgb(255,255,255);
+	position:absolute;
+	height:800px;
+	padding-top:80px;
+	margin-bottom:200px;
+	width:100%;	
+	top:0px;
+	left:0px;
+	z-index:100;
+}
+
+#form-input {
+	width:512px;
+	margin:0 auto;
+}
+
+footer {
+	bottom:0px;
+	position: absolute;
+	width:100%;
+}
+
+#footer-wrapper {
+	margin:0 auto;
+	width:1024px;
+}
+
+#processing {
+	background:rgba(255,255,255,0.8);
+	display:none;
+	position:absolute;
+	height:800px;
+	padding-top:80px;
+	margin-bottom:200px;
+	width:100%;	
+	top:0px;
+	left:0px;
+	z-index:101;
+}
